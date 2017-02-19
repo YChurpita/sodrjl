@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type='text/css' href="css/sfront.css">
+        <script type="text/javascript" src="js/jquery-2.0.0.js"></script>    
+        <script type="text/javascript" src="js/sfront.js"></script>       
+    </head>
+    <body>
+        <div class="sod-front-sl">
+            <!--  <div class="sodr-head-button-block"> -->
+            <input type="radio" class="sodr-head-button" name="slide-head-button" id="sodr-head-button-1" checked><label for="sodr-head-button-1"><span></span></label>
+            <input type="radio" class="sodr-head-button" name="slide-head-button" id="sodr-head-button-2"><label for="sodr-head-button-2"><span></span></label>
+            <input type="radio" class="sodr-head-button" name="slide-head-button" id="sodr-head-button-3"><label for="sodr-head-button-3"><span></span></label>
+            <input type="radio" class="sodr-head-button" name="slide-head-button" id="sodr-head-button-4"><label for="sodr-head-button-4"><span></span></label>
+            <input type="radio" class="sodr-head-button" name="slide-head-button" id="sodr-head-button-5"><label for="sodr-head-button-5"><span></span></label>
+
+            <!-- </div> -->
+            <div class="sod-front-sl-bl">
+                <div class="sodr-button" id="sodr-button-left" onclick="sodrFrontSlider.lrButtenCkick('lbtn')"></div>
+                <div class="sodr-button" id="sodr-button-right" onclick="sodrFrontSlider.lrButtenCkick('rbtn')"></div>
+                <!--         блок слайдера         -->
+                <div class="sod-front-slide">
+                    <div class="sod-front-slide-imgbl" id="sod-front-slide-imgbl-1">
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-1">       
+                        <div class="sod-front-slide-img-wrap"  onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-1')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-1')">
+                            <div class="sod-front-slide-img-wrap-text" id="sod-front-slide-img-wrap-text-1"></div>
+                            <img class="sod-front-slide-img" src="img/gs1.png" alt="img" id="sod-front-slide-img-1" >
+                                
+                        </div>
+                      </a>
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-2"> 
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-2')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-2')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-2"></div>
+                            <img class="sod-front-slide-img" src="img/gst1.png" alt="img" id="sod-front-slide-img-2">
+                        </div>
+                      </a> 
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-3"> 
+                        <div  class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-3')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-3')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-3"></div>
+                            <img class="sod-front-slide-img" src="img/es1.png" alt="img" id="sod-front-slide-img-3">
+                        </div> 
+                      </a>    
+                    </div>
+                    <div class="sod-front-slide-imgbl" id="sod-front-slide-imgbl-2" >
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-4">   
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-4')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-4')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-4"></div>
+                            <img class="sod-front-slide-img" src="img/azk1.png" alt="img" id="sod-front-slide-img-4">
+                        </div> 
+                       </a>   
+                       <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-5">     
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-5')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-5')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-5"></div>
+                            <img class="sod-front-slide-img" src="img/vk1.png" alt="img" id="sod-front-slide-img-5">
+                        </div> 
+                       </a> 
+                       <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-6">   
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-6')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-6')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-6"></div>
+                            <img class="sod-front-slide-img" src="img/sad1.png" alt="img" id="sod-front-slide-img-6">
+                        </div> 
+                       </a>
+                    </div>
+                    <div class="sod-front-slide-imgbl" id="sod-front-slide-imgbl-3">
+                       <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-7">   
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-7')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-7')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-7"></div>
+                            <img class="sod-front-slide-img" src="img/sxk1.png" alt="img" id="sod-front-slide-img-7">
+                        </div> 
+                       </a>
+                       <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-8">   
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-8')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-8')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-8"></div>
+                            <img class="sod-front-slide-img" src="img/eph1.png" alt="img" id="sod-front-slide-img-8">
+                        </div> 
+                       </a>
+                       <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-9">   
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-9')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-9')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-9"></div>
+                            <img class="sod-front-slide-img" src="img/rg1.png" alt="img" id="sod-front-slide-img-9">
+                        </div> 
+                       </a>    
+
+                    </div>
+
+                    <div class="sod-front-slide-imgbl" id="sod-front-slide-imgbl-4">
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-10">    
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-10')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-10')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-10"></div>
+                            <img class="sod-front-slide-img" src="img/go1.png" alt="img" id="sod-front-slide-img-10">
+                        </div>
+                      </a>   
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-11">     
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-11')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-11')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-11"></div>
+                            <img class="sod-front-slide-img" src="img/bc1.png" alt="img" id="sod-front-slide-img-11">
+                        </div> 
+                      </a>
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-12">    
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-12')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-12')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-12"></div>
+                            <img class="sod-front-slide-img" src="img/tpl1.png" alt="img" id="sod-front-slide-img-12">
+                        </div>
+                      </a>    
+
+                    </div>
+                    <div class="sod-front-slide-imgbl" id="sod-front-slide-imgbl-5">
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-13">   
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-13')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-13')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-13"></div>
+                            <img class="sod-front-slide-img" src="img/tcb1.png" alt="img" id="sod-front-slide-img-13" >
+                        </div>
+                      </a>
+                      <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-14">    
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-14')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-14')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-14"></div>
+                            <img class="sod-front-slide-img" src="img/upa1.png" alt="img" id="sod-front-slide-img-14">
+                        </div> 
+                       </a>
+                       <a class="sod-front-slide-img-a" href="" id="sod-front-slide-img-a-15">   
+                        <div class="sod-front-slide-img-wrap" onmousemove="sodrFrontSlider.mMove('sod-front-slide-img-15')" onmouseout="sodrFrontSlider.mOut('sod-front-slide-img-15')">
+                            <div class="sod-front-slide-img-wrap-text"  id="sod-front-slide-img-wrap-text-15"></div>
+                            <img class="sod-front-slide-img" src="img/po1.png" alt="img" id="sod-front-slide-img-15">
+                        </div>
+                       </a>    
+
+                    </div>
+
+
+
+                </div>    
+
+            </div>
+
+        </div>
+    </body>
+</html>
